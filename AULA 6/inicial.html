@@ -1,0 +1,107 @@
+<!-- AULA 6 -->
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Formulário de Contrato</title>
+        <style>
+            body{
+                background-color: rgb(195, 197, 196);
+            }
+        </style>
+    </head>
+    <body>
+        <!-- Header - Usado para definir nosso cabeçalho -->
+        <header>
+
+            <!-- Tag de Título  -->
+            <h1>Título da Minha Página</h1>
+
+            <!-- Div - Usada para dividir ou diferenciar um conteúdo específico -->
+            <div>
+
+                <!-- Âncora - Usada para Habilitar o button a uma outra página -->
+                <a href="Formulário.html">
+
+                    <!-- Tag de botão usada para botões nos sites -->
+                    <button>cadastre-se</button>
+                </a>
+            </div>
+
+        </header>
+
+     <!-- Tag main - Usada para definir ao navegador onde está o conteúdo principal da página -->
+        <main>
+
+            <!-- Section - Usada para definir um sessão a página -->
+            <section>
+
+                <!-- Tag de Título -->
+                <h2>Áudio e Vídeo</h2>
+
+                
+                <h2>Áudio</h2>
+                <audio controls>
+                    <source src="audio/MUSICA.mp3">
+                </audio><br><br>
+
+                <h2>Vídeo</h2>
+                <video controls width="700px"
+                    poster="audio/video/trees-8836655_1280.jpg">
+                    <source src="audio/VIDEO.mp4">
+                </video>
+                <br><br>
+
+                <div>
+
+                    <!-- A tag <iframe> em HTML é usada para incorporar uma janela de outra página web dentro da página atual. "Ifreme" é uma abreviação de "inline frame". Ela permite que você exiba conteúdos de um site externo ou página dentro da página HTML, como o vídeo do YouTube, um mapa do Google, ou o documento PDF -->
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.920735236382!2d-46.44970582454698!3d-23.535353160637484!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce66bc8c86908b%3A0x36962a2d69f3db06!2sObra%20Social%20Dom%20Bosco!5e0!3m2!1spt-BR!2sbr!4v1722984496998!5m2!1spt-BR!2sbr"
+                        width="600" height="450" style="border:0;"
+                        allowfullscreen
+                        loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+                </div>
+            </section>
+        </main>
+
+        <!-- Footer - Usada para abrir e Habilitar rodapé para a página -->
+        <footer>
+
+            <!-- Nav - Usada para informar o Navegador que os itens dentro dela são navegáveis -->
+            <nav>
+
+                <!-- UL - Lista desordenada -->
+                <ul>
+                    <li>
+                        <a href>Política da Empresa</a>
+                    </li>
+                    <li>
+                        <a href>Política da Empresa</a>
+                    </li>
+                    <li>
+                        <a href>Política da Empresa</a>
+                    </li>
+                </ul>
+            </nav>
+        </footer>
+
+        <!-- Inicio do corpo da página -->
+
+        ... <!-- Conteúdo da página -->
+
+        <div vw class="enabled">
+            <div vw-access-button class="active"></div>
+            <div vw-plugin-wrapper>
+                <div class="vw-plugin-top-wrapper"></div>
+            </div>
+        </div>
+        <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+        <script>
+    new window.VLibras.Widget('https://vlibras.gov.br/app');
+  </script>
+
+    </body>
+</html>
