@@ -1,0 +1,15 @@
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    background-color: aquamarine;
+}
+
+.flex div {
+    background-color: aliceblue;  
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+}
