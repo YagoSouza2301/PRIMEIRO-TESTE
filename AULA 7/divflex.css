@@ -1,19 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
 header {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 30px;
     padding: 20px;
-    background-image: url(Imagens/terra\ cabeçalho.jpg);
+    background-image: url(Imagens/galaxia\ cabeçalho.jpg);
     background-position:center;
     background-repeat:  no-repeat;
     background-size: cover;
 }
-
-footer {
-    background-color: rgb(54, 54, 54);
-    padding: 20px;   
+header h1 {
+    color: aliceblue;
+    font-size: 50px;
 }
+
 
 
 
@@ -68,6 +72,8 @@ footer {
 }
 
 
+
+
 .sessao2 {
     padding: 100px;
     background-color: black;
@@ -86,18 +92,82 @@ footer {
 .sessao2 img {
     width: 500px;
     height: 500px;
+    box-shadow: 1px 1px 15px white;
 }
+
+
 .sessao2 h2 {
     margin-top: -30px;
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 70px;
-    color: white;
+    color: rgb(238, 255, 0);
 }
 .sessao2 p {
     text-align: center;
     font-size: 40px;
     font-weight: 700;
-    color: rgb(174, 0, 255);
+    color: rgb(255, 255, 255);
+}
+
+.sessao3 {
+    padding: 100px;
+    background: linear-gradient(180deg, rgb(0, 0, 0) 40%, rgba(0, 17, 255, 0.76) 100%);
+    
+}
+.sessao3 h2 {
+    font-size: 40px;
+    color: azure;
+    text-align: center;
+    margin: 30px;
+}
+.sessao3 .pai1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.sessao3 .pai1 div img {
+    width: 400px;
+    height: 400px;
+    box-shadow: 1px 1px 10px rgba(38, 0, 255, 0.76);
+}
+.sessao3 .pai1 div p {
+    text-align: center;
+    color: azure;
+    font-size: 25px;
+}
+
+
+
+.sessao5 {
+    padding: 70px;
+    background: linear-gradient(180deg, rgb(0, 0, 0) 88.33%, rgb(43, 43, 43) 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sessao5 button {
+    cursor: pointer;
+    width: 250px;
+    height: 50px;
+    background-color: rgba(0, 0, 0, 0.562);
+    color: azure;
+    border-color: rgba(137, 43, 226, 0.397);
+    transition: 0.6s;
+}
+.sessao5 button:hover {
+    transition: 0.6s;
+    border-radius: 30px;
+    background-color: black;
+    border-color: rgb(137, 43, 226);
+}
+
+
+
+footer {
+    background: linear-gradient(360deg, black 100%, rgb(27, 27, 27) .55%);
+    padding: 20px;   
 }
